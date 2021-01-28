@@ -317,6 +317,8 @@ var server = ParseServer({
   accountLockout: {
     duration: 5, // duration policy setting determines the number of minutes that a locked-out account remains locked out before automatically becoming unlocked. Set it to a value greater than 0 and less than 100000.
     threshold: 3, // threshold policy setting determines the number of failed sign-in attempts that will cause a user account to be locked. Set it to an integer value greater than 0 and less than 1000.
+    unlockOnPasswordReset: true, // Is true if the account lock should be removed after a successful password reset. Default: false.
+}
   },
   // optional settings to enforce password policies
   passwordPolicy: {
@@ -347,6 +349,7 @@ You can also use other email adapters contributed by the community such as:
 - [parse-server-mailjet-adapter](https://www.npmjs.com/package/parse-server-mailjet-adapter)
 - [simple-parse-smtp-adapter](https://www.npmjs.com/package/simple-parse-smtp-adapter)
 - [parse-server-generic-email-adapter](https://www.npmjs.com/package/parse-server-generic-email-adapter)
+- [parse-server-api-mail-adapter](https://www.npmjs.com/package/parse-server-api-mail-adapter)
 
 ### Custom Pages
 
