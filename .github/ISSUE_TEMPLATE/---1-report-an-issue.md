@@ -1,37 +1,26 @@
 ---
-name: "\U0001F41B Report an issue"
-about: A feature of Parse Server is not working as expected.
+name: "\U0001F41B Report a bug"
+about: Report a feature that is not working as expected.
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-### New Issue Checklist
-<!--
-    Check every following box [x] before submitting your issue.
-    Click the "Preview" tab for better readability.
-    Thanks for contributing to Parse Platform!
--->
+## Bug Report
 
-- [ ] I am not disclosing a [vulnerability](https://github.com/parse-community/parse-server/blob/master/SECURITY.md).
-- [ ] I am not just asking a [question](https://github.com/parse-community/.github/blob/master/SUPPORT.md).
-- [ ] I have searched through [existing issues](https://github.com/parse-community/parse-server/issues?q=is%3Aissue).
-- [ ] I can reproduce the issue with the [latest version of Parse Server](https://github.com/parse-community/parse-server/releases). <!-- We don't investigate issues for outdated releases. -->
+- Report security issues [confidentially](https://github.com/parse-community/parse-server/security/policy).
+- Any contribution is under this [license](https://github.com/parse-community/parse-server/blob/alpha/LICENSE).
+- Check whether it's an [existing issue](https://github.com/parse-community/parse-server/issues?q=is%3Aissue).
 
-### Issue Description
-<!-- What is the specific issue with Parse Server? -->
+## Issue
+<!-- Describe the issue. -->
 
-### Steps to reproduce
-<!-- How can someone else reproduce the issue? -->
+## Example
+<!-- Give a code or step-by-step example. -->
 
-### Actual Outcome
-<!-- What outcome, for example query result, did you get? -->
-
-### Expected Outcome
-<!-- What outcome, for example query result, did you expect? -->
-### Environment
-<!-- Be specific with versions, don't use "latest" or semver ranges like "~x.y.z" or "^x.y.z". -->
+## Environment
+<!-- Give specific versions, no "latest" or version ranges. -->
 
 Server
 - Parse Server version: `FILL_THIS_OUT`
@@ -46,6 +35,3 @@ Database
 Client
 - SDK (iOS, Android, JavaScript, PHP, Unity, etc): `FILL_THIS_OUT`
 - SDK version: `FILL_THIS_OUT`
-
-### Logs
-<!-- Include relevant logs here. Turn on additional logging by configuring VERBOSE=1 in your environment. -->
